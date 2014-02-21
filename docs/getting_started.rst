@@ -9,7 +9,7 @@ Setup
 1. Install django-badger. Currently there's no released version, so
    you need to install it from git::
 
-       pip install -e https://github.com/mozilla/django-badger/zipball/master#egg=django-badger
+       pip install -e git+https://github.com/mozilla/django-badger/zipball/master#egg=django-badger
 
 2. (Optional) Install django-notification.
 3. Configure django-badger. See :ref:`chapter-getting-started-conf`.
